@@ -8,16 +8,15 @@ python3 -m venv venv
 source ./venv/bin/activate
 ```
 
-2. Download Model (if directory not exists, install it)
+2. Download Model (if directory not exists, install it) checkpoint, VAE, easyNegative
 ```bash
 python download.py
 ```
-3. Run
+3. Modify script in webui-user.sh
+
 ```bash
 bash webui.sh
 ```
-
-
 
 
 ## Stable Diffusion web UI
